@@ -1,10 +1,6 @@
 # NSS-mf-worldwidetravel
 NSS Modern Frameworks - Exercise Two
 
-# Wide World Travel Guides
-
-#### Part 1: Using a controller
-
 ## Setup
 
 Move into a directory where you'd like to clone down the code. Once you've moved into the correct directory, type the following command in the terminal:
@@ -15,7 +11,7 @@ git clone https://github.com/sarahmorris926/NSS-mf-worldwidetravel.git
 
 Once it's cloned down, start up a server and you're ready to view it on your local host.
 
-## Requirements (1)
+#### Part 1: Using a controller
 
 Create the following file structure:
 
@@ -86,7 +82,7 @@ Install Angular with `npm install angular`. Remember to add the script tag for a
 
 Now you have the basic structure in place to display your book data in the DOM the Angular Way.
 
-## Requirements (2)
+## Requirements
 
 For this project you need to use Angular to list a collection of travel guides in the DOM.
 Build an application that has one view, and one controller that will be responsible for retrieving the data and exposing it for use in the view. The view needs to list all book titles, which type of book it is, and the price for the book.

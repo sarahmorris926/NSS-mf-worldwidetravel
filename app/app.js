@@ -1,3 +1,10 @@
 'use strict';
 
-angular.module("WorldWideTravel", []);
+angular.module("WorldWideTravel", ['ngRoute'])
+.config($routeProvider => {
+  $routeProvider
+  .when("/", {
+    templateUrl: "partials/guide-list.html",
+    controller: "BookCtrl"
+  });
+});

@@ -1,0 +1,9 @@
+<div ng-controller="BookCtrl">
+    <ul>
+      <li ng-repeat="book in bookList">
+        {{book.title}} //
+        {{book.type}} //
+        {{book.price | currency}}
+      </li>
+    </ul>
+  </div>

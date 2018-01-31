@@ -5,9 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
+<body ng-app="WorldWideTravel">
   
+  <div ng-controller="BookCtrl">
+    <h1>Book List</h1>
+    <ul>
+      <li ng-repeat="book in bookList">
+        {{book.title}} //
+        {{book.type}} //
+        {{book.price | currency}}
+      </li>
+    </ul>
+  </div> <!-- /ng-controller BookCtrl -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> <!-- Angular -->
+  <script src="app/app.js"></script>
+  <!-- Factories -->
 
-  <script src="app.js"></script>
+  <!-- Controllers -->
+  <script src="app/controllers/BookCtrl.js"></script>
 </body>
 </html>

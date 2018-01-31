@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module("worldWideTravel", ["ngRoute"])
+angular.module("WorldWideTravel", []);

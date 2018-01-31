@@ -1,5 +1,6 @@
 # NSS-mf-worldwidetravel
-NSS Modern Frameworks - Exercise Two
+NSS Modern Frameworks - Exercises Two, Three and Four
+This repository includes World Wide Travel, World Wide Travel Factory, and World Wide Travel Route
 
 ## Setup
 

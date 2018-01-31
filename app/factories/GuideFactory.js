@@ -15,4 +15,4 @@ angular.module("WorldWideTravel").factory("GuideFactory", function($q, $http) {
     });
   };
   return {getBooks};
-})
+});
